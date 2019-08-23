@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieTvShow</string>
+    <string name="movie">Movie</string>
+    <string name="title"> Title</string>
+    <string name="year"> Publish</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="year_movie"> Publish Movie</string>
+    <string name="year_tvshow"> Publish Tv Show</string>
+    <string name="Language">Language</string>
+
+    <array name="data_foto">
+        <item>@drawable/poster_a_start_is_born</item>
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_cold_persuit</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_crimes</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_how_to_train</item>
+        <item>@drawable/poster_infinity_war</item>
+    </array>
+
+    <string-array name="data_titlemovie">
+        <item> A Star Is Born</item>
+        <item>Alita</item>
+        <item>Aquaman</item>
+        <item>Bohemian</item>
+        <item>Cold Persuit</item>
+        <item>Creed</item>
+        <item>Crimes</item>
+        <item>Glass</item>
+        <item>How To Train</item>
+        <item>Infinity War</item>
+    </string-array>
+
+    <string-array name="data_released">
+        <item>5 October 2018</item>
+        <item>19 July 2018</item>
+        <item>21 December 2018</item>
+        <item>2 November 2018</item>
+        <item>8 February 2019</item>
+        <item>21 November 2018</item>
+        <item>14 November 2018</item>
+        <item>18 January 2019</item>
+        <item>22 February 2019</item>
+        <item>4 Mey 2018</item>
+    </string-array>
+
+    <string-array name="data_spoiler">
+        <item>Seasoned musician Jackson Maine discovers and falls in love with  struggling artist Ally. She has just about given up on her dream to make it big as a singer  until Jack coaxes her into the spotlight. But even as Allys career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orms half human, half Atlantean brother and true heir to the throne.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics. When Mercurys increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>The quiet family life of Nels Coxman, a snowplow driver, is upended after his son murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.</item>
+        <item>The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.</item>
+        <item>A female attorney learns that her husband is really a marine officer awol for fifteen years and accused of murdering fifteen civilians in El Salvador. Believing her husband when he tells her that he being framed as part of a U.S. Military cover-up, the attorney defends him in a military court.</item>
+        <item>In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.</item>
+        <item>As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+    </string-array>
+
+
+    <string-array name="data_genre">
+        <item> Romance dan Drama Musical</item>
+        <item>Fiction scientific, Action dan Romance</item>
+        <item>Super Hero</item>
+        <item>Biography, Drama, Music</item>
+        <item>Thriller, Action</item>
+        <item>Drama, Sport</item>
+        <item>Adventure, Family, Fantasy</item>
+        <item>Superhero, Thriller</item>
+        <item>Animation, Action, Adventure</item>
+        <item>Super Hero</item>
+    </string-array>
+
+    <array name="data_fototv">
+        <item>@drawable/tv_arrow</item>
+        <item>@drawable/tv_doom_patrol</item>
+        <item>@drawable/tv_dragon_ball</item>
+        <item>@drawable/tv_fairytail</item>
+        <item>@drawable/tv_family_guy</item>
+        <item>@drawable/tv_flash</item>
+        <item>@drawable/tv_god</item>
+        <item>@drawable/tv_gotham</item>
+        <item>@drawable/tv_grey_anatomy</item>
+        <item>@drawable/tv_hanna</item>
+    </array>
+
+    <string-array name="data_titletv">
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>Dragon Ball</item>
+        <item>fairy Tail</item>
+        <item>Family Guy</item>
+        <item>The Flash</item>
+        <item>A Pledg to God</item>
+        <item>Gotham</item>
+        <item>Greys Anatomy</item>
+        <item>Hanna</item>
+    </string-array>
+
+    <string-array name="data_releasedtv">
+        <item>10 October 2012 - Present</item>
+        <item>15 February 2019</item>
+        <item>20 December 1986</item>
+        <item>12 October 2009 – sekarang</item>
+        <item>1 May 2005</item>
+        <item>7 October 2014 – sekarang</item>
+        <item>24 November 2018</item>
+        <item>22 September 2014</item>
+        <item>27 September 2018</item>
+        <item>3 February 2019</item>
+    </string-array>
+
+    <string-array name="data_spoilertv">
+        <item>Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.</item>
+        <item>The Doom Patrols members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.</item>
+        <item>Long ago in the mountains, a fighting master known as Gohan discovered a strange boy whom he named Goku. Gohan raised him and trained Goku in martial arts until he died. The young and very strong boy was on his own, but easily managed. Then one day, Goku met a teenage girl named Bulma, whose search for the dragon balls brought her to Goku home. Together, they set off to find all seven dragon balls in an adventure.</item>
+        <item>Natsu Dragneel and his friends travel to the island Kingdom of Stella, where they will reveal dark secrets, fight the new enemies and once again save the world from destruction.</item>
+        <item>Sick, twisted, politically incorrect and FreakinSweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.</item>
+        <item>After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only meta-human who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it wont be long before the world learns what Barry Allen has become...The Flash.</item>
+        <item>Seo Ji Young is an anchorwoman and talk show host who is also fiercely devoted to her children. Meanwhile, Kim Jae Wook is the heir to a large architecture firm who is willing to lay everything on the line and stand up against his family in order to protect his children.</item>
+        <item>Before there was Batman, there was GOTHAM.</item>
+        <item>Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.</item>
+        <item>This thriller and coming-of-age drama follows the journey of an extraordinary young girl as she evades the relentless pursuit of an off-book CIA agent and tries to unearth the truth behind who she is. Based on the 2011 Joe Wright film.</item>
+    </string-array>
+
+    <string-array name="data_genretv">
+        <item>Fiksi,superhero,Drama,Aksi dan Misteri</item>
+        <item>Action, Crime, dan Drama</item>
+        <item>Aksi, Petualangan, Komedi, Drama,Fiks Ilmiah, dan Fantasi</item>
+        <item>Petualangan , Fantasi</item>
+        <item>	Adult animation, Animated sitcom</item>
+        <item>Super Hero, Drama, Laga, Misteri, Fiksi Ilmiah</item>
+        <item>MeloDrama, Family</item>
+        <item>Drama, Kriminal</item>
+        <item>Drama, Romance</item>
+        <item>Action, Drama</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
