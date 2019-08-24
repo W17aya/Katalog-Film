@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aplikasi Nonton</string>
+    <string name="app_name">Katalog Film</string>
     <string name="movie">Film</string>
     <string name="title"> Title</string>
     <string name="year"> Publish</string>
-    <string name="tv_show">Sinetron</string>
+    <string name="tv_show">Serial TV</string>
     <string name="year_movie"> Publish Movie</string>
     <string name="year_tvshow"> Publish Tv Show</string>
     <string name="Language">Pengaturan Bahasa</string>

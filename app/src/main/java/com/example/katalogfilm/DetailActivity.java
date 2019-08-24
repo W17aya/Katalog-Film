@@ -10,10 +10,10 @@ import  com.example.katalogfilm.Model.Film;
 
 public class DetailActivity extends AppCompatActivity {
     public static final String KEY_EXTRA = "KEY_EXTRA";
+    private int photo;
     ImageView imgPhoto;
     TextView txtTitle, txtSpoiler, txtGenre, txtReleased;
-    int photo;
-    String title, spoiler, genre, released;
+    private String title, spoiler, genre, released;
 
 
     @Override

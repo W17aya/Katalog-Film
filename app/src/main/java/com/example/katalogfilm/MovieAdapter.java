@@ -1,21 +1,30 @@
 package com.example.katalogfilm;
 
+
+
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.TransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
+
+import com.example.katalogfilm.DetailActivity;
 import com.example.katalogfilm.Model.Film;
+import com.example.katalogfilm.R;
+
 import java.util.ArrayList;
 
 import static com.example.katalogfilm.DetailActivity.KEY_EXTRA;
+
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
     private ArrayList<Film>listMovie;
 
@@ -45,11 +54,11 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(holder.itemView.getContext(), DetailActivity.class);
-                film.setPhoto(listMovie.get(holder.getAdapterPosition()).getPhoto());
-                film.setTitle(listMovie.get(holder.getAdapterPosition()).getTitle());
-                film.setReleased(listMovie.get(holder.getAdapterPosition()).getReleased());
-                film.setSpoiler(listMovie.get(holder.getAdapterPosition()).getSpoiler());
-                film.setGenre(listMovie.get(holder.getAdapterPosition()).getGenre());
+                film.getPhoto();
+                film.getTitle();
+                film.getReleased();
+                film.getSpoiler();
+                film.getGenre();
                 intent.putExtra(KEY_EXTRA,film);
                 holder.itemView.getContext().startActivity(intent);
 

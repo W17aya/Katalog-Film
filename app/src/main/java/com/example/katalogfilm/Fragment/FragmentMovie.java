@@ -66,7 +66,7 @@ public class FragmentMovie extends Fragment {
         list.addAll(getListData());
     }
 
-    public ArrayList<Film>getListData(){
+    private ArrayList<Film>getListData(){
         list = new ArrayList<>();
         for (int i = 0; i < title.length; i++) {
           Film film = new Film();
