@@ -8,19 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.TransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
 
-import com.example.katalogfilm.DetailActivity;
 import com.example.katalogfilm.Model.Film;
-import com.example.katalogfilm.R;
-
 import java.util.ArrayList;
 
 import static com.example.katalogfilm.DetailActivity.KEY_EXTRA;

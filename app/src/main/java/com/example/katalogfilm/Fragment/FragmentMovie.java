@@ -29,8 +29,6 @@ public class FragmentMovie extends Fragment {
     private ArrayList<Film> list = new ArrayList<>();
     private String[] title, released, desc, genre;
     private TypedArray cover;
-    private MovieAdapter adapter;
-
 
 
 

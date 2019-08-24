@@ -5,5 +5,4 @@
         android:id="@+id/language"
         android:title="@string/Language"
         app:showAsAction="never" />
-
 </menu>

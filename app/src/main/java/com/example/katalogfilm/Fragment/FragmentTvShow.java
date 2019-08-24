@@ -17,19 +17,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.katalogfilm.MovieAdapter;
 import com.example.katalogfilm.Model.Film;
 import com.example.katalogfilm.R;
+
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentTvshow extends Fragment {
+public class FragmentTvShow extends Fragment {
 private RecyclerView rvTV;
 private ArrayList<Film> list = new ArrayList<>();
 private String [] title, released, desc, genre;
 private TypedArray cover;
 private MovieAdapter adapter;
 
-    public FragmentTvshow() {
+    public FragmentTvShow() {
         // Requi red empty public constructor
     }
 
@@ -38,7 +39,7 @@ private MovieAdapter adapter;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment_tvshow, container, false);
+        return inflater.inflate(R.layout.fragment_tvshow, container, false);
     }
 
     @Override

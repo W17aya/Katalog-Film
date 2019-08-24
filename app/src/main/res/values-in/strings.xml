@@ -3,7 +3,7 @@
     <string name="app_name">Katalog Film</string>
     <string name="movie">Film</string>
     <string name="title"> Title</string>
-    <string name="year"> Publish</string>
+    <string name="year"> Tahun Liris</string>
     <string name="tv_show">Serial TV</string>
     <string name="year_movie"> Publish Movie</string>
     <string name="year_tvshow"> Publish Tv Show</string>
@@ -23,7 +23,7 @@
     </array>
 
     <string-array name="data_titlemovie">
-        <item> A Star Is Born</item>
+        <item>A Star Is Born</item>
         <item>Alita</item>
         <item>Aquaman</item>
         <item>Bohemian</item>
@@ -137,9 +137,9 @@
     <string-array name="data_genretv">
         <item>Fiksi, Pahlawan, Drama, Aksi dan Misteri</item>
         <item>Aksi, Kejahatan, dan Drama</item>
-        <item>Aksi, Petualangan, Komedi, Drama,Fiks Ilmiah, dan Fantasi</item>
+        <item>Aksi, Petualangan, Komedi, dan Fantasi</item>
         <item>Petualangan , Fantasi</item>
-        <item>	Animasi, Animasi Sitkom</item>
+        <item>Animasi, Animasi Sitkom</item>
         <item>Pahlawan, Drama, Laga, Misteri, Fiksi Ilmiah</item>
         <item>Cerita Sedih, Keluarga</item>
         <item>Drama, Kriminal</item>

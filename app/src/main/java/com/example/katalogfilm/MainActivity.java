@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import com.example.katalogfilm.Fragment.FragmentMovie;
-import com.example.katalogfilm.Fragment.FragmentTvshow;
+import com.example.katalogfilm.Fragment.FragmentTvShow;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.NonNull;
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                             .commit();
                     return true;
                 case R.id.tv_show:
-                    fragment = new FragmentTvshow();
+                    fragment = new FragmentTvShow();
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.container_layout, fragment, fragment.getClass().getSimpleName())
                             .commit();

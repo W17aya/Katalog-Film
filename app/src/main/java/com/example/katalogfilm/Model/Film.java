@@ -67,7 +67,7 @@ public class Film implements Parcelable {
     public Film() {
     }
 
-    protected Film(Parcel in) {
+    private Film(Parcel in) {
         this.photo = in.readInt();
         this.title = in.readString();
         this.released = in.readString();

@@ -10,7 +10,6 @@ import  com.example.katalogfilm.Model.Film;
 
 public class DetailActivity extends AppCompatActivity {
     public static final String KEY_EXTRA = "KEY_EXTRA";
-    private int photo;
     ImageView imgPhoto;
     TextView txtTitle, txtSpoiler, txtGenre, txtReleased;
     private String title, spoiler, genre, released;
@@ -33,7 +32,7 @@ public class DetailActivity extends AppCompatActivity {
 
     private void IntentData() {
         Film film = getIntent().getParcelableExtra(KEY_EXTRA);
-        photo = film.getPhoto();
+        int photo = film.getPhoto();
         title = film.getTitle();
         spoiler = film.getSpoiler();
         genre = film.getGenre();
